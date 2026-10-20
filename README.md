@@ -3,7 +3,10 @@
 
 <br>
 
-<h1>NeedU</h1>
+<h1>
+  <img src=".github/assets/needu-character.gif" width="64" align="absmiddle" alt="NeedU 캐릭터" />
+  NeedU
+</h1>
 
 <h3>대화 몇 마디로 알아내는<br>나와 친구의 진짜 니즈</h3>
 
