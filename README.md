@@ -1,81 +1,106 @@
 <!-- COMMON:START -->
 <div align="center">
 
+<br>
+
 <h1>NeedU</h1>
 
-<p><b>대화 몇 마디로 알아내는 나와 친구의 진짜 니즈</b></p>
+<h3>대화 몇 마디로 알아내는<br>나와 친구의 진짜 니즈</h3>
 
-<p>AI와 대화하며 취향을 분석하고<br/>나에게 맞는 상품과 친구에게 줄 선물을 추천합니다</p>
+<p>
+  <sub>AI 취향 분석&nbsp;&nbsp;·&nbsp;&nbsp;맞춤 상품 추천&nbsp;&nbsp;·&nbsp;&nbsp;친구 선물 추천&nbsp;&nbsp;·&nbsp;&nbsp;익명 채팅</sub>
+</p>
 
-<br/>
+<br>
 
-[![Service](https://img.shields.io/badge/Service-needu.gift-111111?style=for-the-badge)](https://needu.gift)
-[![Wiki](https://img.shields.io/badge/Team-Wiki-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/100-hours-a-week/KTB4-4th-wiki)
+<a href="https://needu.gift"><img src="https://img.shields.io/badge/LIVE-needu.gift-FFE14D?style=for-the-badge&labelColor=1A1A1A" alt="needu.gift" /></a>
+&nbsp;
+<a href="https://github.com/100-hours-a-week/KTB4-4th-wiki"><img src="https://img.shields.io/badge/DOCS-Team_Wiki-EDEDED?style=for-the-badge&labelColor=1A1A1A" alt="Team Wiki" /></a>
+
+<br>
 
 </div>
 
-<br/>
-
 ## 서비스 소개
 
-선물을 고를 때 가장 어려운 건 **상대가 무엇을 좋아하는지 모른다는 것**입니다. 나를 위한 상품조차 취향을 말로 설명하기 어렵습니다.
-
-NeedU는 **AI와의 짧은 대화**로 취향을 분석하고, 그 결과로 **나를 위한 상품**과 **카카오 친구를 위한 선물**을 추천합니다. 친구에게 직접 묻기 어려울 때는 **익명 채팅**으로 정체를 숨긴 채 원하는 선물을 물어볼 수 있습니다.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>AI 취향 대화</h3>
-      AI와 이야기하면 답변이 실시간으로 이어지고,<br/>대화가 끝나면 취향 분석 결과를 확인·수정합니다.
-    </td>
-    <td width="50%" valign="top">
-      <h3>맞춤 상품 추천</h3>
-      확정한 취향을 바탕으로 상품을 추천하고,<br/>가격·카테고리로 걸러 볼 수 있습니다.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>친구 선물 추천</h3>
-      NeedU에 가입한 카카오 친구의<br/>취향 요약과 선물 추천을 확인합니다.
-    </td>
-    <td width="50%" valign="top">
-      <h3>익명 채팅</h3>
-      내가 누군지 밝히지 않고 친구와 대화하며<br/>원하는 선물을 자연스럽게 물어봅니다.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>알림</h3>
-      친구 생일, 친구 가입, 콕 찌르기, 구매 확인을 앱 알림과 웹 푸시로 받습니다.
-    </td>
-  </tr>
-</table>
-
 <p align="center">
-  <img src="./docs/assets/service-intro.png" alt="NeedU 서비스 소개" width="100%" />
+  <sub><b>WHY NEEDU</b></sub>
 </p>
 
-### 저장소
+<h3 align="center">
+  내가 무엇을 좋아하는지,<br>
+  친구가 무엇을 원하는지 모를 때
+</h3>
 
-| 파트 | 역할 | 저장소 |
-| :---: | --- | --- |
-| **FE** | 화면과 클라이언트 상태 | [KTB4-4th-FE](https://github.com/100-hours-a-week/KTB4-4th-FE) |
-| **BE** | 비즈니스 로직과 API | [KTB4-4th-BE](https://github.com/100-hours-a-week/KTB4-4th-BE) |
-| **AI** | 대화·취향 분석·추천 | [KTB4-4th-AI](https://github.com/100-hours-a-week/KTB4-4th-AI) |
-| **CLOUD** | 인프라·배포·관측성 | [KTB4-4th-CLOUD](https://github.com/100-hours-a-week/KTB4-4th-CLOUD) |
+<p align="center">
+  NeedU는 AI와 나누는 짧은 대화에서 <b>나도 몰랐던 취향과 관심사</b>를 발견하고,<br>
+  그 취향에 꼭 맞는 <b>나를 위한 상품</b>과 <b>친구를 위한 선물</b>을 찾아 줍니다.
+</p>
 
-### 팀
+<p align="center">
+  <sub>취향을 말로 설명하기 어려운 사람도, 선물 앞에서 막막한 사람도 대화 몇 마디면 충분합니다.</sub>
+</p>
 
+<br>
+
+<div align="center">
 <table>
   <tr>
-    <td align="center" width="16%"><a href="https://github.com/jynoh00"><img src="https://github.com/jynoh00.png" width="96" /><br/><b>jynoh00</b></a><br/>BE</td>
-    <td align="center" width="16%"><a href="https://github.com/FinnPing1741"><img src="https://github.com/FinnPing1741.png" width="96" /><br/><b>FinnPing1741</b></a><br/>BE</td>
-    <td align="center" width="16%"><a href="https://github.com/seoddhh"><img src="https://github.com/seoddhh.png" width="96" /><br/><b>seoddhh</b></a><br/>AI</td>
-    <td align="center" width="16%"><a href="https://github.com/juiuj"><img src="https://github.com/juiuj.png" width="96" /><br/><b>juiuj</b></a><br/>FE</td>
-    <td align="center" width="16%"><a href="https://github.com/sodam2z"><img src="https://github.com/sodam2z.png" width="96" /><br/><b>sodam2z</b></a><br/>CLOUD</td>
-    <td align="center" width="16%"><a href="https://github.com/hyo-lin"><img src="https://github.com/hyo-lin.png" width="96" /><br/><b>hyo-lin</b></a><br/>CLOUD</td>
+    <td align="center" width="180"><kbd>01</kbd><br><br><b>AI 취향 대화</b><br><sub>몰랐던 내 취향을<br>대화로 발견해요</sub></td>
+    <td align="center" width="180"><kbd>02</kbd><br><br><b>맞춤 상품 추천</b><br><sub>내 취향에 맞는<br>상품만 골라요</sub></td>
+    <td align="center" width="180"><kbd>03</kbd><br><br><b>친구 선물 추천</b><br><sub>친구 취향으로<br>선물을 찾아요</sub></td>
+    <td align="center" width="180"><kbd>04</kbd><br><br><b>익명 채팅</b><br><sub>정체를 숨기고<br>슬쩍 물어봐요</sub></td>
+    <td align="center" width="180"><kbd>05</kbd><br><br><b>알림</b><br><sub>생일·콕 찌르기를<br>놓치지 않아요</sub></td>
   </tr>
 </table>
+</div>
+
+<details>
+<summary><b>기능 자세히 보기</b></summary>
+<br>
+<div align="center">
+
+| 기능 | 설명 |
+| :---: | :---: |
+| **AI 취향 대화** | AI와 편하게 이야기하면 답변이 실시간으로 이어지고,<br>대화가 끝나면 분석 결과를 확인하고 직접 다듬을 수 있습니다. |
+| **맞춤 상품 추천** | 확정한 취향을 바탕으로 상품을 추천합니다.<br>가격과 카테고리로 원하는 상품만 골라 볼 수 있습니다. |
+| **친구 선물 추천** | NeedU에 가입한 카카오 친구의 취향 요약을 보고,<br>그 친구에게 어울리는 선물을 추천받습니다. |
+| **익명 채팅** | 친구에게 직접 묻기 어려울 때, 정체를 숨긴 채<br>대화하며 원하는 선물을 자연스럽게 물어봅니다. |
+| **알림** | 친구의 생일, 친구 가입, 콕 찌르기, 구매 확인 소식을<br>앱 알림과 웹 푸시로 받습니다. |
+
+</div>
+</details>
+
+### 팀 · 저장소
+
+<div align="center">
+<table>
+  <tr>
+    <th width="200">BE</th>
+    <th width="200">AI</th>
+    <th width="200">FE</th>
+    <th width="200">CLOUD</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jynoh00"><img src="https://github.com/jynoh00.png" width="64" alt="jynoh00" /></a> <a href="https://github.com/FinnPing1741"><img src="https://github.com/FinnPing1741.png" width="64" alt="FinnPing1741" /></a><br><sub><a href="https://github.com/jynoh00">jynoh00</a> · <a href="https://github.com/FinnPing1741">FinnPing1741</a></sub></td>
+    <td align="center"><a href="https://github.com/seoddhh"><img src="https://github.com/seoddhh.png" width="64" alt="seoddhh" /></a><br><sub><a href="https://github.com/seoddhh">seoddhh</a></sub></td>
+    <td align="center"><a href="https://github.com/juiuj"><img src="https://github.com/juiuj.png" width="64" alt="juiuj" /></a><br><sub><a href="https://github.com/juiuj">juiuj</a></sub></td>
+    <td align="center"><a href="https://github.com/sodam2z"><img src="https://github.com/sodam2z.png" width="64" alt="sodam2z" /></a> <a href="https://github.com/hyo-lin"><img src="https://github.com/hyo-lin.png" width="64" alt="hyo-lin" /></a><br><sub><a href="https://github.com/sodam2z">sodam2z</a> · <a href="https://github.com/hyo-lin">hyo-lin</a></sub></td>
+  </tr>
+  <tr>
+    <td align="center">비즈니스 로직 · API</td>
+    <td align="center">대화 · 취향 분석 · 추천</td>
+    <td align="center">화면 · 클라이언트 상태</td>
+    <td align="center">인프라 · 배포 · 관측성</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/100-hours-a-week/KTB4-4th-BE"><code>KTB4-4th-BE</code></a></td>
+    <td align="center"><a href="https://github.com/100-hours-a-week/KTB4-4th-AI"><code>KTB4-4th-AI</code></a></td>
+    <td align="center"><a href="https://github.com/100-hours-a-week/KTB4-4th-FE"><code>KTB4-4th-FE</code></a></td>
+    <td align="center"><a href="https://github.com/100-hours-a-week/KTB4-4th-CLOUD"><code>KTB4-4th-CLOUD</code></a></td>
+  </tr>
+</table>
+</div>
 
 <!-- COMMON:END -->
 
